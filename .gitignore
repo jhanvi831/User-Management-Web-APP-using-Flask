@@ -1,0 +1,4 @@
+env1
+migrations
+__pycache__
+models/__pycache__
