@@ -85,7 +85,7 @@
                     <td>
                         <a href="{{ url_for('main.edit_user', id=item.id) }}" class="btn btn-primary" style="width:100px; margin-right: 10px; background-color: #60b268; 
                         border-color: #60b268; color: white">Edit</a>
-                        <button class="btn btn-danger" style="width:100px;">Delete</button>
+                        <button class="btn btn-danger" style="width:100px;" onclick="confirmDelete('{{item.id}}')">Delete</button>
                     </td>
                 </tr>
                 {% endfor %}
