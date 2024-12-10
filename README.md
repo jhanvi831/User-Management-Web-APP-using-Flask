@@ -54,7 +54,7 @@ Try restarting MySQL again, this is resolve the issue.
 
 #### Creating a database
 
-Go to [localhost phpmyadmin](`http://localhost/phpmyadmin/`) and create a database name `usermanagement`.
+Go to [http://localhost/phpmyadmin/](`http://localhost/phpmyadmin/`) and create a database name `usermanagement`.
 
 ![alt text](image-2.png)
 
@@ -84,9 +84,9 @@ It will start your application at: __`http://127.0.0.1:5000`__
 
 3. **Edit user page**
 
-![alt text](clickEdit.png)p
+![alt text](clickEdit.png)
 
-4. **Delete user confirmation dialog**
+4.**Delete user confirmation dialog**
 
 ![alt text](deleteUserConfirmationDialogBox.png)
 
@@ -94,6 +94,11 @@ It will start your application at: __`http://127.0.0.1:5000`__
 
 ![alt text](homePageAfterClickingOkToDeleteUser.png)
 
+#### Shutting down XAMPP
+
+It's important to note that while shutting down **xampp control panel** first **stop** your modules **(Apache and MySQL)** and then click the **Quit** button. 
+Improper shutdown of xampp can cause you to lose your database entirely. 
+
 #### Link
 
-This is a reference from the [youtube tutorial](https://www.youtube.com/playlist?list=PLXpWu84ZnHT-e-f6d_r6Q21cTsGAS4xXX) by EazyPractiz.
+This is a reference from the [youtube-tutorial](https://www.youtube.com/playlist?list=PLXpWu84ZnHT-e-f6d_r6Q21cTsGAS4xXX) by EazyPractiz.
